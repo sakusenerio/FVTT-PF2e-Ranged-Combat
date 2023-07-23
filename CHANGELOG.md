@@ -1,3 +1,23 @@
+## 4.0.2 - 2023-07-07 (Pathfinder 2e 5.1.1)
+### Fixes
+- Improved the wording and localisation of some dialogs
+
+## 4.0.1 - 2023-07-03 (Pathfinder 2e 5.1.0)
+### Fixes
+- Fixed an issue with the advanced thrown weapon system (and potentially other places in the module) caused by a change in the Foundry API
+
+## 4.0.0 - 2023-06-15 (Pathfinder 2e 5.0.0-beta2)
+### Feature
+- Foundry v11 compatibility
+
+## 3.9.3 - 2023-05-11 (Pathfinder 2e 4.11.2)
+### Fixes
+- Fix error shown to other players when removing the final thrown weapon from a stack
+
+## 3.9.2 - 2023-04-26 (Pathfinder 2e 4.10.4)
+### Fixes
+- Fix language code for Chinese (Simplified)
+
 ## 3.9.1 - 2023-04-24 (Pathfinder 2e 4.10.4)
 ### Feature
 - Added translations for Chinese (Simplified) and French

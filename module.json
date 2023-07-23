@@ -2,15 +2,15 @@
     "id": "pf2e-ranged-combat",
     "title": "PF2e Ranged Combat",
     "description": "Utilities for improving ranged combat in Pathfinder 2e.",
-    "version": "3.9.1",
+    "version": "4.0.2",
     "authors": [
         {
             "name": "JDCalvert"
         }
     ],
     "compatibility": {
-        "minimum": "10",
-        "verified": "10"
+        "minimum": "11",
+        "verified": "11"
     },
     "relationships": {
         "systems": [
@@ -28,7 +28,7 @@
     },
     "url": "https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat",
     "manifest": "https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat/releases/latest/download/module.json",
-    "download": "https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat/archive/3.9.1.zip",
+    "download": "https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat/archive/4.0.2.zip",
     "readme": "https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat",
     "bugs": "https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat/issues",
     "changelog": "https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat/blob/main/CHANGELOG.md",
@@ -45,16 +45,33 @@
         {
             "name": "effects",
             "label": "Ranged Combat Effects",
-            "path": "packs/effects.db",
+            "path": "packs/effects",
             "type": "Item",
             "system": "pf2e"
         },
         {
             "name": "macros",
             "label": "Ranged Combat Macros",
-            "path": "packs/macros.db",
+            "path": "packs/macros",
             "type": "Macro",
             "system": "pf2e"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "PF2e Ranged Combat",
+            "sorting": "a",
+            "packs": [
+                "effects",
+                "macros"
+            ]
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "caption": "PF2e Ranged Combat",
+            "thumbnail": "/modules/pf2e-ranged-combat/art/thumbnail.webp"
         }
     ],
     "languages": [
